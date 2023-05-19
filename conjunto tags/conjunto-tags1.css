@@ -1,0 +1,53 @@
+li {
+	list-style: none;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: red;
+}
+
+a:active {
+	background-color: yellow;
+}
+
+a:hover {
+	letter-spacing: 10px;
+	font-weight: bold;
+	color: red;
+}
+
+a:hover {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: blue;
+	background-color: yellow;
+}
+
+a.carro {
+	color: #FFBB00;
+}
+
+a.moto {
+	color: #FF0000;
+}
+
+#c1 {
+	color: blue;
+}
+
+#c2 {
+	color: red;
+}
+
+#s1 {
+	color: yellow;
+}
+
+#s2 {
+	color: green;
+}

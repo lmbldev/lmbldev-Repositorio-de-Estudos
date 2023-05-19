@@ -1,0 +1,90 @@
+<html>
+<head><title>Formulários 3</title>
+	<script>
+		function valida(f){
+			if(f.nome.value==""){
+				alert("O campo nome não pode ficar vazio!");
+				return false;
+			}
+		}
+	</script>
+</head>
+<body>
+	<B>Preencha o formulário e clique no botão Enviar</B>
+	<p><FORM ACTION="Formulário3.html" METHOD="POST" onsubmit = "return valida(this);">
+		<table border="1" cellpadding="4">
+			<tr>
+				<td>Nome:</td>
+				<td><input type="text" size="45" name="nome"></td>
+			</tr>
+			
+			<tr>
+				<td>Sexo:</td>
+				<td>
+					<input type="Radio" name="sexo" value="M" checked>
+					Masculino
+					<input type="radio" name="sexo" value="F">
+					Feminino
+				</td>
+			</tr>
+
+			<tr>
+				<td>Cidade: </td>
+				<td><input type="text" size="20" name="cidade">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Estado</td>
+				<td>
+					<SELECT NAME="estado">
+						<option value="0">Selecione
+						<option value="1">SP
+						<option value="2">RJ
+					</SELECT>
+				</td>
+
+			<tr>
+					<td colspan="2" align="center">
+						<b>Quais objetos a seguir você gosta?</b></td>
+			</tr>
+
+			<tr align="center">
+				<td colspan="2">
+					<input type="checkbox" name="Geladeira"
+					value="GEL">Geladeira &nbsp;
+					<input type="checkbox" name="VideoGame"
+					Value="VG">VídeoGame &nbsp;
+					<input type="checkbox" name="Celular"
+					Value="Cel">Celular &nbsp;
+					<input type="checkbox" name="TV"
+					Value="TV">Televisão
+				</td>
+			</tr>
+
+			<tr>
+				<td>Mensagem:</td>
+				<td>
+					<textarea name="mensagem" rows="4" cols="35">
+					</textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td align="center" colspan="2">
+					<input type="Submit" value="Enviar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="Reset" value="Limpar">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
+
+					
+					
+
+
+

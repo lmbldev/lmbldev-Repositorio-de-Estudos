@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Formulário</title>
+</head>
+<body>
+	<form action = "" method="POST">
+		<fieldset>
+			<legend>Formulário de Cadastro</legend>
+			<label for="nome">Nome: </label>
+			<input type="text" size="35" maxlenght="100" name="Nome"> 
+			<p><label for="caixasenha">Senha: </label>
+			<input type="password" size="20" maxlenght="100" name="caixasenha">
+			<p><label for="sexo">Sexo</label>
+			<input type="radio" name="sexo" value="Masc" checked> Masculino
+			<input type="radio" name="sexo" value="Fem"> Feminino
+			<p>Prêmio Desejado: <br><input type="checkbox" name="escolha1" value="radio" checked> Rádio
+			<br><input type="checkbox" name="escolha2" value="TV"> Televisão
+			<p>Estado: <select name="estado">
+				<option value="0">Selecione
+				<option value="sp">SP
+				<option value="rj">RJ
+				</select>
+				<p><textarea name="areadetext" rows="4" cols="40"></textarea>
+				<p><input type="reset" value="Limpar">
+				<input type="submit" value="Enviar">	
+		</fieldset>
+	</form>
+</body>
+</html>
